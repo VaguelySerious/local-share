@@ -10,7 +10,9 @@
 				$filePath = $uploadPath . $file;
 				$mimetype = mime_content_type($filePath);
 				$size = convert_filesize(filesize($filePath));
+				$filename = $file;
 				echo "<li><a href=\"?download=$file\">$file ($mimetype) ($size)</a></li>";
+				//include 'partials/ui/file.php';
 			}
 		}
 		?>

@@ -1,0 +1,19 @@
+{
+  "name": "local-upload",
+  "version": "1.0.0",
+  "description": "Simple file upload/download website designed to be used on localhost to send files to colleagues ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaguelySerious/local-upload.git"
+  },
+  "author": "Peter Wielander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VaguelySerious/local-upload/issues"
+  },
+  "homepage": "https://github.com/VaguelySerious/local-upload#readme"
+}
