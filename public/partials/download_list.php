@@ -1,5 +1,5 @@
 <div class="files">
-	<h2 class="headline">Files available for download</h>
+	<h2 class="headline">Files available for download</h2>
 	<ul class="files-list">
 	<?php
 		$excludedList = ['.', '..'];
