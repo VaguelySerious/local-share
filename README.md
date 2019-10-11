@@ -16,7 +16,7 @@ Why would you want to do this? For the simple reason that it's faster than files
 + Anyone can upload any files and they will land under `public/uploads`
 + Any files you move to `public/uploads` on your machine will be available for download by anyone  
 
-**Note** that while the most basic of exploit vectors should have been fixed, this is supposed to be used in an environment that you trust. I recommend only turning your http server on when this exchange is intended
+**Note** that while the most basic of exploit vectors should have been foreseen and prevented, this is supposed to be used in an environment that you trust and is by no means something to be considered secure. I recommend only turning your http server on when file exchange is imminent, and disabling it afterwards.
 
 ## Planned features
 
