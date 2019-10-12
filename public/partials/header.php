@@ -3,23 +3,29 @@
 		<title>Upload</title>
 		<style>
 			html {
+				background: #f6f7fc;
 				box-sizing: border-box;
 				font-size: 16px;
+				height: 100%;
 				text-align: center;
 				text-rendering: optimizeLegibility;
 				-webkit-font-smoothing: antialiased;
 				-moz-osx-font-smoothing: grayscale;
 				-moz-font-feature-settings: "liga" on;
+				width: 100%;
 			}
 
-			html, html::after, html::before {
+			html *, html *::after, html *::before {
 				box-sizing: inherit;
 			}
 
 			body {
 				color: #3A446B;
+				display: flex;
+				flex-direction: column;
 				font: 400 1rem/1.5 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 				margin: 0;
+				min-height: 100%;
 			}
 
 			img {
@@ -122,8 +128,11 @@
 			.title {
 				color: #000;
 				font: 700 calc(1.25rem + 0.5vw)/1.125 'IBM Plex Mono', monospace;
-				margin: 0 0 calc(3em + 2vmin);
-			}
+				margin: 0 0 calc(3em + 2vmin); }
+
+				.title-highlight {
+					color: #2720ff;
+					font-style: normal; }
 
 			.headline {
 				color: #000;
@@ -132,7 +141,6 @@
 			}
 
 			.upload {
-				background: #f6f7fc;
 				overflow: hidden;
 				padding: 2.5em 1em calc(4em + 2vmin); }
 
@@ -180,6 +188,8 @@
 						width: 1px; }
 
 			.files {
+				background: #ffffff;
+				flex: 1;
 				padding: 4em 0; }
 
 				.files-list {
@@ -192,29 +202,30 @@
 					justify-content: center; }
 
 					.files-list-link {
+						color: #3A446B;
 						display: flex;
 						flex-direction: column;
 						font-weight: 600;
 						height: 100%;
 						justify-content: flex-end;
 						padding: 1rem;
+						text-decoration: none;
 						width: 100%; }
 
 					.files-list-item {
 						background: #f6f7fc;
 						border-radius: 1rem;
 						display: flex;
+						margin-bottom: 1rem;
 						min-height: 17vmin;
 						min-width: 17vmin; }
 
 						.files-list-item:not(:last-child) {
-							margin-bottom: 1rem;
 							margin-right: 1rem; }
 
 						.files-list-item-size {
 							display: block;
 							font-weight: 400; }
-
 		</style>
 	</head>
 <body>

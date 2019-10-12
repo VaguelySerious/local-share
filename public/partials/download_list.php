@@ -1,3 +1,4 @@
+<!-- TODO: only show if not empty -->
 <div class="files">
 	<h2 class="headline">Files available for download</h2>
 	<ul class="files-list">
