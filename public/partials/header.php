@@ -2,6 +2,31 @@
 	<head>
 		<title>Upload</title>
 		<style>
+			@font-face {
+				font-family: 'IBM Plex Mono';
+				src: url('/fonts/ibmplexmono-bold-webfont.woff2') format('woff2'),
+						 url('/fonts/ibmplexmono-bold-webfont.woff') format('woff');
+				font-weight: 700;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: 'IBM Plex Sans';
+				src: url('/fonts/ibmplexsans-regular-webfont.woff2') format('woff2'),
+						 url('/fonts/ibmplexsans-regular-webfont.woff') format('woff');
+				font-weight: 400;
+				font-style: normal;
+			}
+
+			@font-face {
+				font-family: 'IBM Plex Sans';
+				src: url('/fonts/ibmplexsans-semibold-webfont.woff2') format('woff2'),
+						 url('/fonts/ibmplexsans-semibold-webfont.woff') format('woff');
+				font-weight: 600;
+				font-style: normal;
+			}
+
+
 			html {
 				background: #f6f7fc;
 				box-sizing: border-box;
